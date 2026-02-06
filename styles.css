@@ -1,6 +1,7 @@
 :root{
   --bg: #ffffff;
   --fg: #0b1220;
+  --msu-green: #18453B;
   --muted: rgba(11,18,32,.65);
   --border: rgba(11,18,32,.12);
   --card: rgba(255,255,255,.7);
@@ -13,6 +14,7 @@
   --blueb: rgba(79,70,229,.35);
   --pink: rgba(236,72,153,.14);
   --pinkb: rgba(236,72,153,.35);
+  
 }
 
 *{box-sizing:border-box}
@@ -61,7 +63,7 @@ body{
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
   gap:8px;
-  background: var(--fg);
+  background: var(--msu-green);
   color: white;
   text-decoration:none;
   padding:10px 14px;
@@ -262,4 +264,3 @@ body{
 a:hover{
   color: var(--msu-green);
 }
-
