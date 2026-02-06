@@ -259,3 +259,7 @@ body{
   opacity:0.85;
 }
 
+a:hover{
+  color: var(--msu-green);
+}
+
