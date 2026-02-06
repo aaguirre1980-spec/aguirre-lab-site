@@ -247,3 +247,15 @@ body{
 @media (min-width:860px){
   .footer__inner{flex-direction:row; align-items:center; justify-content:space-between;}
 }
+.footer-brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.footer-brand img{
+  height:26px;
+  width:auto;
+  opacity:0.85;
+}
+
